@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Length Converter</title>
+</head>
+
+<body>
+    <heade>
+        <div class="container w-75">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center mt-3"><span class="text-danger">Length </span>Converter</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="km" class="form-label">Kilometer</label>
+                        <input type="number" class="form-control" id="km" oninput="ConverterFunkm()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="m" class="form-label">Meter</label>
+                        <input type="number" class="form-control" id="m" oninput="ConverterFunm()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="cm" class="form-label">Centimeter</label>
+                        <input type="number" class="form-control" id="cm" oninput="ConverterFuncm()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="mm" class="form-label">Millimeter</label>
+                        <input type="number" class="form-control" id="mm" oninput="ConverterFunmm()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="micro" class="form-label">Micrometer</label>
+                        <input type="number" id="micro" class="form-control" oninput="ConverterFunmi()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="km" class="form-label">Nanometer</label>
+                        <input type="number" class="form-control" id="nnm" oninput="ConverterFunni()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="mile" class="form-label">Mile</label>
+                        <input type="number" class="form-control" id="mile" oninput="ConverterFunmil()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="yard" class="form-label">Yard</label>
+                        <input type="number" class="form-control" id="yard" oninput="ConverterFunyard()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="foot" class="form-label">foot</label>
+                        <input type="number" class="form-control" id="foot" oninput="ConverterFunfoo()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="inc" class="form-label">Inch</label>
+                        <input type="number" class="form-control" id="inc" oninput="ConverterFunin()">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-3">
+                        <label for="nm" class="form-label">Nautical miles</label>
+                        <input type="number" class="form-control" id="nm" oninput="ConverterFunnm()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </heade>
+    <main></main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
